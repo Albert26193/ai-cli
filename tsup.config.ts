@@ -1,11 +1,7 @@
 import { defineConfig } from 'tsup';
 
 export default defineConfig({
-  entryPoints: {
-    cli: './src/node/cli.ts',
-    index: './src/node/index.ts',
-    dev: './src/node/dev.ts'
-  },
+  entryPoints: ['src/node/cli.ts'],
   bundle: true,
   splitting: true,
   minify: process.env.NODE_ENV === 'production',

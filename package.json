@@ -9,15 +9,19 @@
     "prepare": "husky install",
     "test:unit": "jest"
   },
+  "bin": {
+    "ai-tldr": "/bin/ai-tldr.js"
+  },
   "author": "Albert Wang",
   "license": "ISC",
-  "type": "module",
   "devDependencies": {
     "@commitlint/cli": "^18.1.0",
     "@commitlint/config-conventional": "^18.1.0",
     "@types/jest": "^29.5.6",
+    "@types/node": "^20.8.8",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
+    "cac": "^6.7.14",
     "commitlint": "^18.1.0",
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
@@ -35,5 +39,9 @@
     "**/*.{js,jsx,tsx,ts}": [
       "eslint --fix"
     ]
+  },
+  "dependencies": {
+    "langchain": "^0.0.172",
+    "zod": "^3.22.4"
   }
 }
