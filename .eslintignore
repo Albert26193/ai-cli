@@ -1,0 +1,17 @@
+.eslintrc.cjs
+.gitignore
+.pnpmrc
+README.md
+LICENSE
+CHANGELOG.md
+tsconfig.json
+yarn.lock
+jest.config.js
+
+node_modules
+package.json
+pnpm-lock.yaml
+dist
+bin
+esm-cjs
+docs
