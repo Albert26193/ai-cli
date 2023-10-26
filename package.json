@@ -10,6 +10,7 @@
     "test:unit": "jest"
   },
   "bin": {
+    "ai-cli": "/bin/aicli.js",
     "aicli": "/bin/aicli.js",
     "ic": "/bin/aicli.js"
   },

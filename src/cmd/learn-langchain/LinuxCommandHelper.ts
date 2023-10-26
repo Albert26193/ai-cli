@@ -34,6 +34,8 @@ const chat = new ChatOpenAI({
     baseURL: 'https://api.openai-sb.com/v1'
   },
   modelName: 'gpt-3.5-turbo',
+  // This key is similar to a stored-value card
+  // which is used temporarily for development and will be reset later.
   openAIApiKey: 'sb-32201db676b8d99d0bc220a2ea26f4b001e8c44b3fdd96f5',
   streaming: true
 });
