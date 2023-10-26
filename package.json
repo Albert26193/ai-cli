@@ -1,5 +1,5 @@
 {
-  "name": "ai-tldr",
+  "name": "ai-cli",
   "version": "1.0.0",
   "description": "ai helper for Linux command",
   "scripts": {
@@ -10,7 +10,8 @@
     "test:unit": "jest"
   },
   "bin": {
-    "ai-tldr": "/bin/ai-tldr.js"
+    "aicli": "/bin/aicli.js",
+    "ic": "/bin/aicli.js"
   },
   "author": "Albert Wang",
   "license": "ISC",
